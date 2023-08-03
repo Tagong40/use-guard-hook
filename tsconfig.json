@@ -1,0 +1,21 @@
+{
+
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist", "lib", "**/*spec.ts"],
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "importHelpers": true,
+      "declaration": true,
+      "sourceMap": true,
+      "baseUrl": "./",
+      "rootDir": "./src",
+      "outDir": "./dist/",
+      "lib": ["dom", "es2016"],
+     
+      "jsx": "react",  // <-- Add this line to enable JSX support
+      "esModuleInterop": true
+    },
+  
+  }
+  

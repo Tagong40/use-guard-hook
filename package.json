@@ -1,0 +1,31 @@
+{
+  "name": "use-guard-hook",
+  "version": "0.0.6",
+  "description": "react permissions-wrapper",
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "permissions",
+    "role",
+    "guard",
+    "roles & permissions"
+  ],
+  "author": "Tensangna Julius",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  }
+}
